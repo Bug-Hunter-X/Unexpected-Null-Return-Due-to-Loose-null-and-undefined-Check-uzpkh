@@ -1,0 +1,1 @@
+This repository demonstrates a subtle bug in JavaScript related to handling null and undefined values. The function `foo` intends to return null only when either `a` or `b` is explicitly null.  However, it also returns null when either parameter is undefined. This can lead to unexpected behavior and difficult-to-debug issues. The solution offers a corrected implementation.
